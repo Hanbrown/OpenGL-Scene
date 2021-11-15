@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\final.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\GLInclude.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ImportedModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ModelImporter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utils_PR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\fragShader_a3.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\vertShader_a3.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\shaders\fragCShader_F.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\shaders\fragShader_F.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\shaders\vertCShader_F.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\shaders\vertShader_F.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\cubeMap\xn.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\cubeMap\xp.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\cubeMap\yn.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\cubeMap\yp.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\cubeMap\zn.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\cubeMap\zp.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\dish_tex.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\Fuselage_TOTAL_TEX.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\ground_plane_NRM.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\ground_plane_tex.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\hi_ace_tex.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\terminal_tex.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\terminal_tex_NRM.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\tower_roof_tex.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\tower_tex.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\tower_tex_Normal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="res\meshes\dassault_falcon2.obj">
+      <Filter>Resource Files</Filter>
+    </Object>
+    <Object Include="res\meshes\dish.obj">
+      <Filter>Resource Files</Filter>
+    </Object>
+    <Object Include="res\meshes\hi_ace.obj">
+      <Filter>Resource Files</Filter>
+    </Object>
+    <Object Include="res\meshes\terminal.obj">
+      <Filter>Resource Files</Filter>
+    </Object>
+    <Object Include="res\meshes\tower.obj">
+      <Filter>Resource Files</Filter>
+    </Object>
+    <Object Include="res\meshes\tower_roof.obj">
+      <Filter>Resource Files</Filter>
+    </Object>
+    <Object Include="res\meshes\tower_windows.obj">
+      <Filter>Resource Files</Filter>
+    </Object>
+  </ItemGroup>
+</Project>
